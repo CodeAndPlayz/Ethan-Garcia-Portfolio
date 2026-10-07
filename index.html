@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ethan — student web developer and programmer."
+    />
+    <title>Ethan | Web Developer & Programmer</title>
+    <link rel="icon" type="image/x-icon" href="assets/MoneyTrackLogo.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="brand" href="#home"
+          ><img
+            class="brand-mark"
+            src="assets/MoneyTrackLogo.ico"
+            alt="MoneyTrack logo"
+          /><span>Ethan</span></a
+        ><button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#home">Home</a><a href="#about">About</a
+          ><a href="#skills">Skills</a><a href="#projects">Projects</a
+          ><a href="#process">Process</a><a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <canvas id="particleCanvas" aria-hidden="true"></canvas>
+        <div class="hero-glow glow-one"></div>
+        <div class="hero-glow glow-two"></div>
+        <div class="container hero-content reveal">
+          <p class="eyebrow">
+            <span class="eyebrow-dot"></span> Student Developer
+          </p>
+          <h1>
+            Building the web,<br /><span class="gradient-text"
+              >one project at a time.</span
+            >
+          </h1>
+          <p class="hero-text">
+            I'm Ethan, a student web developer and programmer focused on
+            creating clean websites, useful web tools, and interactive
+            experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects"
+              >View My Work <span>↗</span></a
+            ><a class="button button-secondary" href="#contact">Contact Me</a>
+          </div>
+          <div class="hero-meta">
+            <span>HTML</span><i></i><span>CSS</span><i></i
+            ><span>JavaScript</span>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about"
+          ><span>Scroll to explore</span>
+          <div class="scroll-line"></div
+        ></a>
+      </section>
+      <section class="section" id="about">
+        <div class="container split-layout">
+          <div class="section-heading reveal">
+            <p class="section-label">01 / About</p>
+            <h2>Curious about how<br />things work.</h2>
+          </div>
+          <div class="about-copy reveal">
+            <p class="large-copy">
+              I'm a student developer who enjoys turning ideas into working
+              projects. I like building things from the ground up and learning
+              through every project I make.
+            </p>
+            <p>
+              My main focus is web development. I work with HTML, CSS, and
+              JavaScript to create responsive interfaces and practical browser
+              applications. I also enjoy programming and electronics outside the
+              web.
+            </p>
+            <div class="about-stats">
+              <div><strong>01</strong><span>Developer portfolio</span></div>
+              <div><strong>02</strong><span>Web applications</span></div>
+              <div><strong>03</strong><span>Learning by building</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-alt" id="skills">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="section-label">02 / Skills</p>
+            <h2>Tools I use to<br />bring ideas to life.</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <div class="skill-number">01</div>
+              <h3>HTML</h3>
+              <p>
+                Semantic, structured pages that provide a strong foundation for
+                every project.
+              </p>
+              <span class="skill-tag">Structure</span>
+            </article>
+            <article class="skill-card reveal">
+              <div class="skill-number">02</div>
+              <h3>CSS</h3>
+              <p>
+                Responsive layouts, polished interfaces, animations, and modern
+                visual systems.
+              </p>
+              <span class="skill-tag">Design</span>
+            </article>
+            <article class="skill-card reveal">
+              <div class="skill-number">03</div>
+              <h3>JavaScript</h3>
+              <p>
+                Interactive interfaces, calculations, data handling, browser
+                storage, and web tools.
+              </p>
+              <span class="skill-tag">Logic</span>
+            </article>
+            <article class="skill-card reveal">
+              <div class="skill-number">04</div>
+              <h3>Responsive Design</h3>
+              <p>
+                Interfaces designed to remain useful and comfortable across
+                desktop and mobile screens.
+              </p>
+              <span class="skill-tag">UI / UX</span>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="projects-top">
+            <div class="section-heading reveal">
+              <p class="section-label">03 / Selected Work</p>
+              <h2>Projects I've<br />built.</h2>
+            </div>
+            <p class="projects-intro reveal">
+              A collection of websites and tools I've built while learning,
+              experimenting, and improving my development skills.
+            </p>
+          </div>
+
+          <a
+            class="project-feature project-link reveal"
+            href="https://codeandplayz.github.io/MoneyTrack/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="project-visual">
+              <div class="dashboard-window">
+                <div class="window-bar">
+                  <span></span><span></span><span></span>
+                  <small>MoneyTrack</small>
+                </div>
+                <div class="dashboard-body">
+                  <div class="dashboard-title">Financial overview</div>
+                  <div class="dashboard-balance">₱24,680.50</div>
+                  <div class="dashboard-line"></div>
+                  <div class="dashboard-cards">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                  <div class="dashboard-chart">
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-index">01</div>
+              <p class="project-type">Web Application</p>
+              <h3>MoneyTrack</h3>
+              <p>
+                A personal finance management web app designed to help users
+                organize income, expenses, budgets, and spending information.
+              </p>
+              <div class="project-features">
+                <span>Transactions</span><span>Budgets</span
+                ><span>Multi-currency</span><span>CSV Import / Export</span
+                ><span>Local Storage</span>
+              </div>
+              <div class="project-stack">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <span class="project-visit">Visit project <b>↗</b></span>
+            </div>
+          </a>
+
+          <a
+            class="project-feature project-link project-reverse reveal"
+            href="https://codeandplayz.github.io/Unit-Converter/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="project-visual">
+              <div class="converter-window">
+                <div class="window-bar">
+                  <span></span><span></span><span></span>
+                  <small>Unit Converter</small>
+                </div>
+                <div class="converter-body">
+                  <div class="converter-heading">
+                    Convert measurements quickly
+                  </div>
+                  <div class="converter-category">Length / Distance</div>
+                  <div class="converter-fields">
+                    <div class="converter-field">
+                      <small>From</small><strong>1</strong><span>Meter</span>
+                    </div>
+                    <div class="converter-arrow">→</div>
+                    <div class="converter-field">
+                      <small>To</small><strong>3.28084</strong><span>Feet</span>
+                    </div>
+                  </div>
+                  <div class="converter-result">
+                    <small>Result</small><strong>1 m = 3.28084 ft</strong>
+                  </div>
+                  <div class="converter-steps">
+                    <span>Step 1</span><span>1 × 3.28084</span
+                    ><b>= 3.28084 ft</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-index">02</div>
+              <p class="project-type">Utility Web Tool</p>
+              <h3>Unit Converter</h3>
+              <p>
+                A practical measurement converter built to make common
+                conversions quick to understand, with units and step-by-step
+                solutions.
+              </p>
+              <div class="project-features">
+                <span>Length</span><span>Mass</span><span>Volume</span
+                ><span>Area</span><span>Temperature</span><span>Speed</span
+                ><span>Pressure</span><span>Energy</span>
+              </div>
+              <div class="project-stack">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <span class="project-visit">Visit project <b>↗</b></span>
+            </div>
+          </a>
+
+          <a
+            class="project-feature project-link reveal"
+            href="https://codeandplayz.github.io/PhysicsCalculator/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="project-visual">
+              <div class="physics-window">
+                <div class="window-bar">
+                  <span></span><span></span><span></span>
+                  <small>Physics Calculator</small>
+                </div>
+                <div class="physics-body">
+                  <div class="physics-title">PHYSICS LEARNING TOOL</div>
+                  <div class="physics-topic">Motion</div>
+                  <div class="physics-equation">v = d / t</div>
+                  <div class="physics-inputs">
+                    <div><small>Distance</small><strong>120 m</strong></div>
+                    <div><small>Time</small><strong>10 s</strong></div>
+                  </div>
+                  <div class="physics-answer">
+                    <small>Answer</small><strong>12 m/s</strong>
+                  </div>
+                  <div class="physics-step">
+                    <span>Step-by-step solution</span><b>120 ÷ 10 = 12 m/s</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-index">03</div>
+              <p class="project-type">Educational Tool</p>
+              <h3>Physics Calculator</h3>
+              <p>
+                An interactive physics learning tool that calculates common
+                problems while showing formulas and step-by-step solutions.
+              </p>
+              <div class="project-features">
+                <span>Motion</span><span>Force</span
+                ><span>Work &amp; Energy</span><span>Momentum</span
+                ><span>Electricity</span><span>Step-by-step</span>
+              </div>
+              <div class="project-stack">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <span class="project-visit">Visit project <b>↗</b></span>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section class="section section-alt" id="process">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="section-label">04 / Process</p>
+            <h2>From idea to<br />working project.</h2>
+          </div>
+          <div class="process-grid">
+            <article class="process-card reveal">
+              <span>01</span>
+              <h3>Plan</h3>
+              <p>
+                Define the idea, features, layout, and the problem the project
+                should solve.
+              </p>
+            </article>
+            <article class="process-card reveal">
+              <span>02</span>
+              <h3>Build</h3>
+              <p>
+                Turn the plan into a working interface using clean HTML, CSS,
+                and JavaScript.
+              </p>
+            </article>
+            <article class="process-card reveal">
+              <span>03</span>
+              <h3>Refine</h3>
+              <p>
+                Test the project, fix problems, improve responsiveness, and
+                polish the experience.
+              </p>
+            </article>
+            <article class="process-card reveal">
+              <span>04</span>
+              <h3>Learn</h3>
+              <p>
+                Review what worked, what didn't, and use the experience to make
+                the next project better.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section" id="contact">
+        <div class="container contact-inner reveal">
+          <p class="section-label">05 / Contact</p>
+          <h2>
+            Have an idea?<br /><span class="gradient-text"
+              >Let's build it.</span
+            >
+          </h2>
+          <p>
+            I'm always interested in learning, building new projects, and
+            exploring opportunities in web development.
+          </p>
+          <a class="contact-button" href="mailto:electricalthinker@gmail.com"
+            ><span>electricalthinker@gmail.com</span><span>↗</span></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Ethan</span
+        ><span>Built from scratch with HTML, CSS & JavaScript.</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
